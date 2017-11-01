@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.goodlookinout.jobstalker.HomeScreen"
+    tools:showIn="@layout/activity_home_screen">
+
+    <ExpandableListView
+        android:id="@+id/MainList"
+        android:layout_width="wrap_content"
+        android:layout_height="442dp"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/addNewURLButton"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Add new URL"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+</android.support.constraint.ConstraintLayout>
